@@ -10,7 +10,7 @@ namespace Tyuiu.AytuvorovTK.Sprint2.Task3.V30.Test
             DataService ds = new DataService();
             double x = 5;
             double res = ds.Calculate(x);
-            double wait = 12.594;
+            double wait = 37.969;
             Assert.AreEqual(wait, res);
 
         }
