@@ -26,7 +26,7 @@ internal class Program
 
         if ((day < 1) || (day > 365) || (firstDay < 1) || (firstDay > 7))
         {
-            res = "Введено неверное значение!";
+            res = "Введено неверfное значение!";
         }
         else
         {
