@@ -5,7 +5,7 @@ namespace Tyuiu.AytuvorovTK.Sprint2.Task7.V14.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            return (x * x + y * y <= 1) && (y >= x) && (y <= -x);
+            return (x * x + y * y <= 1) && (x >= 0) && (y <= x) && (y >= -x);
         }
     }
 }
