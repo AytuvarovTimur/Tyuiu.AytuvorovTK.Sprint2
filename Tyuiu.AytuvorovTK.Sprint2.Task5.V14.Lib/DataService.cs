@@ -5,7 +5,7 @@ namespace Tyuiu.AytuvorovTK.Sprint2.Task5.V14.Lib
     {
         public string FindDayName(int k, int d)
         {
-            string[] days = { "понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье" };
+            string[] days = { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
 
             int dayO = (d + k - 2) % 7;
 
