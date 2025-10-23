@@ -30,7 +30,7 @@ internal class Program
         }
         else
         {
-            res = "День недели:" + ds.FindDayName(day, firstDay);
+            res = "День недеdли:" + ds.FindDayName(day, firstDay);
         }
 
         Console.WriteLine("*********************************************************************************************************************");
