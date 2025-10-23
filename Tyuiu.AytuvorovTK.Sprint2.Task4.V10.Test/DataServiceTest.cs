@@ -24,6 +24,6 @@ namespace Tyuiu.AytuvorovTK.Sprint2.Task4.V10.Test
             double res = ds.Calculate(x, y);
             double wait = 33.333;
             Assert.AreEqual(wait, res);
-        }
+        }  
     }
 }
